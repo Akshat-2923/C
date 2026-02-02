@@ -11,7 +11,7 @@ int main()
     {
         for (int j = 1; j <= nsp; j++)
         {
-            printf("-");
+            printf(" ");
         }
         nsp++;
         for (int k = 1; k <= nst; k++)
@@ -27,7 +27,7 @@ int main()
     {
         for (int i = 0; i < nsp2; i++)
         {
-            printf("-");
+            printf(" ");
         }
         nsp = nsp - 1;
         for (int p = 1; p <= npt; p++)

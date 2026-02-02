@@ -7,9 +7,8 @@ int main()
     int a = 0;
     for (i = 2; i <= (x - 1); i++)
     {
-        if (x % i == 0)
+        if (x % i != 0)
         {
-            printf("The number is composite \n");
             a = 1;
             break;
         }
@@ -18,9 +17,9 @@ int main()
         printf("1 is neither prime nor composite");
 
     else if (a == 0)
-        printf("the given number is prime \n");
+        printf("The given number is prime \n");
     else
-        printf("the given number is composite\n");
+        printf("The given number is composite\n");
 
     return 0;
 }

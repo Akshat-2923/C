@@ -3,5 +3,8 @@
         "stdio.h": "c",
         "78.C": "cpp"
     },
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "disabled",
+    "cSpell.words": [
+        "Rahul"
+    ]
 }
